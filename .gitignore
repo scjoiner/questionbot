@@ -1,5 +1,5 @@
 config.py
 questionbothelper.py
-guessbot.db
+questionbot.db
 __pycache__/
 .DS_Store
