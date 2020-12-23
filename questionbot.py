@@ -244,7 +244,7 @@ def process_inbox():
 		and not has_approved_post(message.author) \
 		and not user_has_recent_post(message.author)) \
 		or (user_post \
-		and messsage_time_delta >= REINSTATE_PERIOD_MINUTES \
+		and message_time_delta >= REINSTATE_PERIOD_MINUTES \
 		and not user_post['replied']):
 			logstring = "Got timed out response from %s" % user
 			if user_post:
